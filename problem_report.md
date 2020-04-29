@@ -11,6 +11,6 @@ Our goal in this analysis is to find the best-positioned university for the stud
 ## II. Data
  -we will need a list of the best universities in marseille and their coordinates. unfortunately, I didn't manage to find this data in a formatted form so I got the university names from [1](https://www.languagecourse.net/universities-marseille),and their coordinates from google maps.we will use the data to plot the universities and find the nearby venues to them.
  
- - geocoder for op
+-geocoder for obtaining the coordinates of marseille to plot the map using folium library.
 
 -Foursquare has a public API that can provide us the data. Foursquare has some account tiers for developers. Each tier has a different set of available features [2](https://developer.foursquare.com/docs). In this project, we are using a personal tier. In this tier, we can get the data of venues near the specific location with a specific category. The data should contain longitude, latitude, and the category of the venue. Processing and analysis will be done on this data to help us answer the business problem.
